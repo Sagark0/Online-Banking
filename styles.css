@@ -1,0 +1,95 @@
+body{
+	margin:0;
+	padding:0;
+	background: #34495e;
+}
+
+
+.box{
+	width:300px;
+	padding:40px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	left: 50%;
+	top:50%;
+	text-align: center;
+	border-radius:10px;
+}
+
+.box h2{
+	color:white;
+	font-weight:500;
+	text-transform:uppercase;
+}
+.box input[type="text"],.box input[type="password"]{
+	border:0;
+	background:none;
+	display:block;
+	margin: 20px auto;
+	text-align:center;
+	border:2px solid #3498db;
+	padding:14px 10px;
+	width: 200px;
+	outline:none;
+	color:white;
+	border-radius: 24px;
+	transition:0.25s;
+}
+ 
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+	width:280px;
+	border-color: #2ecc71;
+}
+.box input[type="submit"]{
+	border:0;
+	background:none;
+	display:block;
+	margin: 20px auto;
+	text-align:center;
+	border:2px solid #2ecc71;
+	padding:14px 40px;	
+	outline:none;
+	color:white;
+	border-radius: 24px;
+	transition:0.25s;
+}
+.box input[type="submit"]:hover{
+	background:#2ecc71;
+}
+.box a {
+	text-decoration:none;
+	display:block;
+	text-align:center;
+	margin: 20px auto;
+	border:2px solid #2ecc71;
+	border-radius: 24px;
+	color:white;
+	width:110px;
+	padding:14px 1px;
+}
+.box a:hover{
+	background-color:#2ecc71;
+}
+.box a {
+	text-decoration:none;
+	display:block;
+	text-align:center;
+	margin: 20px auto;
+	border:2px solid #2ecc71;
+	border-radius: 24px;
+	color:white;
+	width:110px;
+	padding:14px 1px;
+}
+.box a:hover{
+	background-color:#2ecc71;
+}
+.menu{
+	display: inline;
+	float:right;
+	background: white;
+	margin:0;
+	padding:0;
+	width:100px;
+}
